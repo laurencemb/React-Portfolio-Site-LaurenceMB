@@ -5,10 +5,7 @@ import './style.css'
 function Navbar () {
     return (
         <nav className='navbar'>
-            <Link className="navbar-brand" to="/">
-        Laurence
-      </Link>
-            <div>
+            <div className='container'>
                 <ul className='navbar-nav'>
                     <li className='nav-item'>
                         <NavLink  
